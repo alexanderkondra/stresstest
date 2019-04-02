@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Stress Test</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Stress Test</h2>
+      </div>
+      <form id="stress_test">
+        <div class="form-group">
+          <p>Check which symptoms apply to you</p>
+          <input type="checkbox" name="stressS" value="sleep">Lack of sleep<br>
+          <input type="checkbox" name="stressS" value="overwhelmed">Feeling overwhelmed<br>
+          <input type="checkbox" name="stressS" value="sad">Sadness<br>
+        </div>
+        <div class="form-group">
+          <p>In the past year, I have felt the following:</p>
+          <input type="checkbox" name="stressH" value="anxiety"> High Blood Pressure<br>
+          <input type="checkbox" name="stressH" value="migraines"> Migraines<br>
+          <input type="checkbox" name="stressH" value="anxiety"> Anxiety<br>
+        </div>
+        <div class="form-group">
+          <p>I do the following to manage stress:</p>
+          <input type="checkbox" name="stressM" value="meditate"> Meditate<br>
+          <input type="checkbox" name="stressM" value="migraines"> Manage time well<br>
+          <input type="checkbox" name="stressM" value="anxiety"> Pet Car<br>
+          <input type="checkbox" name="stressM" value="exercise"> Exercise<br>
+          <input type="checkbox" name="stressM" value="yoga"> Yoga<br>
+
+
+        </div>
+       <button type="submit">Submit Survey</button>
+      </form>
+      <span id="stressed" class="response">
+        <p><b>You are very stressed out, seek help at google</b></p>
+      </span>
+      <span id="managed" class="response">
+        <p><b>You are stressed, but managing it</b></p>
+      </span>
+      <span id="notstressed" class="response">
+        <p><b>You are not stressed</b></p>
+      </span>
+    </div>
+  </body>
+</html>
